@@ -7,12 +7,12 @@ interface Hero {
 }
 
 @Component({
-    selector: 'my-app',
-    templateUrl: 'app/app.template.html',
-    styleUrls: ['app/app.styles.css'],
+    selector: 'my-heroes',
+    templateUrl: 'app/components/heroes/template.html',
+    styleUrls: ['app/components/heroes/styles.css'],
     directives: [HeroDetailComponent]
 })
-export class AppComponent {
+export class HeroesComponent {
     public title = 'Tour of Heroes';
     public selectedHero: Hero;
     public heroes = HEROES;
