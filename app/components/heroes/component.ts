@@ -1,10 +1,6 @@
 import {Component} from 'angular2/core';
+import {Hero} from './hero';
 import {HeroDetailComponent} from './hero-detail.component';
-
-interface Hero {
-    id: number;
-    name: string;
-}
 
 @Component({
     selector: 'my-heroes',
