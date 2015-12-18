@@ -24,7 +24,7 @@ import {HeroDetailComponent}   from './heroes/hero-detail.component';
         useAsDefault: true
     },
 
-    { path: '/heroes', name: './Heroes', component: HeroListComponent },
+    { path: '/heroes', name: 'Heroes', component: HeroListComponent },
     { path: '/hero/:id', name: 'HeroDetail', component: HeroDetailComponent },
     { path: '/disaster', name: 'Asteroid', redirectTo: ['CrisisCenter', 'CrisisDetail', { id: 3 }] }
 ])

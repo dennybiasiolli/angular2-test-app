@@ -15,7 +15,7 @@ export class SidebarComponent {
 	public menu_items3 = MENU_ITEMS3;
 
 	onSelect(m: MenuItem) {
-		selectedMenuItem = m
+		this.selectedMenuItem = m
 	}
 }
 
