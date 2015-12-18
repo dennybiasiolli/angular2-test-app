@@ -2,7 +2,8 @@ import {Component} from 'angular2/core';
 
 @Component({
 	selector: 'my-sidebar',
-	templateUrl: 'app/components/core/sidebar/template.html'
+	templateUrl: 'app/components/core/sidebar/template.html',
+	styleUrls: ['app/components/core/sidebar/styles.css']
 })
 export class SidebarComponent {
 	public menu_items1 = MENU_ITEMS1;

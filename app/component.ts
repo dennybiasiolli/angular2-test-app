@@ -4,6 +4,7 @@ import {RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
 import {HeaderComponent} from './components/core/header/component';
 import {SidebarComponent} from './components/core/sidebar/component';
 import {HeroesComponent} from './components/heroes/component';
+
 import {CrisisCenterComponent} from './components/heroes/crisis-center/crisis-center.component';
 import {HeroListComponent}     from './components/heroes/heroes/hero-list.component';
 import {HeroDetailComponent}   from './components/heroes/heroes/hero-detail.component';
@@ -19,6 +20,7 @@ interface Hero {
     styleUrls: ['app/styles.css'],
     directives: [HeaderComponent, SidebarComponent, HeroesComponent]
 })
+
 @RouteConfig([
     { // Crisis Center child route
         path: '/crisis-center/...',
