@@ -15,17 +15,17 @@ interface MenuItem {
 	link: string;
 }
 var MENU_ITEMS1: MenuItem[] = [
-	{ title: "Menu 1 - Titolo 1", link: '#' },
-	{ title: "Menu 1 - Titolo 2", link: '#' },
-	{ title: "Menu 1 - Titolo 3", link: '#' }
+	{ title: "Menu 1 - Titolo 1", link: '/' },
+	{ title: "Menu 1 - Titolo 2", link: '/' },
+	{ title: "Menu 1 - Titolo 3", link: '/' }
 ];
 var MENU_ITEMS2: MenuItem[] = [
-	{ title: "Menu 2 - Titolo 1", link: '#' },
-	{ title: "Menu 2 - Titolo 2", link: '#' },
-	{ title: "Menu 2 - Titolo 3", link: '#' }
+	{ title: "Menu 2 - Titolo 1", link: '/' },
+	{ title: "Menu 2 - Titolo 2", link: '/' },
+	{ title: "Menu 2 - Titolo 3", link: '/' }
 ];
 var MENU_ITEMS3: MenuItem[] = [
-	{ title: "Menu 3 - Titolo 1", link: '#' },
-	{ title: "Menu 3 - Titolo 2", link: '#' },
-	{ title: "Menu 3 - Titolo 3", link: '#' }
+	{ title: "Menu 3 - Titolo 1", link: '/' },
+	{ title: "Menu 3 - Titolo 2", link: '/' },
+	{ title: "Menu 3 - Titolo 3", link: '/' }
 ];

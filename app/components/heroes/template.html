@@ -1,3 +1,4 @@
+<!--
 <div class="row">
 	<h1>{{title}}</h1>
 	<h2>My Heroes</h2>
@@ -9,4 +10,11 @@
 		</li>
 	</ul>
 	<my-hero-detail [hero]="selectedHero"></my-hero-detail>
+</div>
+-->
+<div class="row">
+	<h1 class="title">Component Router</h1>
+	<a [routerLink]="['CrisisCenter']">Crisis Center</a>
+	<a [routerLink]="['Heroes']">Heroes</a>
+	<router-outlet></router-outlet>
 </div>
